@@ -55,7 +55,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.owl93.dpb.CircularProgressView
-        android:id="@+id/graph_todolist"
+        android:id="@+id/circularProgressView"
         android:layout_width="200dp"
         android:layout_height="200dp"
         app:gradientCenterColor="#C957FF"
@@ -66,8 +66,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
         app:maxValue="100"
-        app:progress="55"
-        android:visibility="gone"
+        app:progress="75"
         app:strokeEndStyle="square"
         app:strokeGradientStyle="sweep"
         app:strokeGradient_linearAngle="270"
