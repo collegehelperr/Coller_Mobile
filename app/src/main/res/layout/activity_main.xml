@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/btn_register"
-        android:layout_width="341dp"
+        android:layout_width="304dp"
         android:layout_height="48dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/btn1"
@@ -22,7 +22,7 @@
 
     <Button
         android:id="@+id/btn_login"
-        android:layout_width="341dp"
+        android:layout_width="304dp"
         android:layout_height="48dp"
         android:layout_marginBottom="30dp"
         android:background="@drawable/btn2"
@@ -38,30 +38,33 @@
         android:layout_height="wrap_content"
         android:text="Selamat datang\ndi Coller"
         android:textColor="@color/white"
-        android:textSize="38sp"
+        android:textSize="34sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintHorizontal_bias="0.435"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.777" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="92dp"
         android:text="Kami hadir untuk membantu di\nkehidupan perkuliahan"
         android:textColor="@color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_register"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="387dp"
-        android:layout_height="330dp"
-        android:layout_marginTop="5dp"
+        android:layout_width="304dp"
+        android:layout_height="243dp"
+        android:layout_marginTop="45dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

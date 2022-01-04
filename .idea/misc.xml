@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/KUL YEAH/AKADEMIK/SMT 3/REPO GITHUB TA/Coller_Mobile/app/src/main/res/layout/activity_add_note.xml" value="0.1" />
+        <entry key="..\:/KUL YEAH/AKADEMIK/SMT 3/REPO GITHUB TA/Coller_Mobile/app/src/main/res/layout/activity_add_schedule.xml" value="0.1" />
+        <entry key="..\:/KUL YEAH/AKADEMIK/SMT 3/REPO GITHUB TA/Coller_Mobile/app/src/main/res/layout/activity_add_task.xml" value="0.4" />
+        <entry key="..\:/KUL YEAH/AKADEMIK/SMT 3/REPO GITHUB TA/Coller_Mobile/app/src/main/res/layout/activity_add_todolist.xml" value="0.264" />
+        <entry key="..\:/KUL YEAH/AKADEMIK/SMT 3/REPO GITHUB TA/Coller_Mobile/app/src/main/res/layout/activity_college.xml" value="0.536" />
+        <entry key="..\:/KUL YEAH/AKADEMIK/SMT 3/REPO GITHUB TA/Coller_Mobile/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
+        <entry key="..\:/KUL YEAH/AKADEMIK/SMT 3/REPO GITHUB TA/Coller_Mobile/app/src/main/res/layout/activity_edit_profil.xml" value="0.1" />
+        <entry key="..\:/KUL YEAH/AKADEMIK/SMT 3/REPO GITHUB TA/Coller_Mobile/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/KUL YEAH/AKADEMIK/SMT 3/REPO GITHUB TA/Coller_Mobile/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/KUL YEAH/AKADEMIK/SMT 3/REPO GITHUB TA/Coller_Mobile/app/src/main/res/layout/activity_password.xml" value="0.1" />
+        <entry key="..\:/KUL YEAH/AKADEMIK/SMT 3/REPO GITHUB TA/Coller_Mobile/app/src/main/res/layout/activity_profil.xml" value="0.4" />
+        <entry key="..\:/KUL YEAH/AKADEMIK/SMT 3/REPO GITHUB TA/Coller_Mobile/app/src/main/res/layout/activity_register.xml" value="0.1" />
         <entry key="..\:/Kuliah/WMA/Coller_Mobile/app/src/main/res/drawable/ciclebar.xml" value="0.3880208333333333" />
         <entry key="..\:/Kuliah/WMA/Coller_Mobile/app/src/main/res/drawable/circlebar.xml" value="0.3880208333333333" />
         <entry key="..\:/Kuliah/WMA/Coller_Mobile/app/src/main/res/drawable/circular_pb.xml" value="0.3880208333333333" />

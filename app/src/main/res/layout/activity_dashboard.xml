@@ -11,11 +11,12 @@
         android:id="@+id/btn_ring_dashboard"
         android:layout_width="58dp"
         android:layout_height="58dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="40dp"
         android:background="@null"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_prof"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toEndOf="@+id/btn_home"
         app:srcCompat="@drawable/btn_ring" />
 
@@ -27,7 +28,7 @@
         android:layout_marginTop="40dp"
         android:text="Hai,"
         android:textColor="@color/white"
-        android:textSize="28sp"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -39,8 +40,8 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="5dp"
         android:text="Yuk atur kehidupan perkuliahanmu"
-        android:textColor="@color/white"
-        android:textSize="16sp"
+        android:textColor="#9388A2"
+        android:textSize="13sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_nama" />
 
@@ -81,11 +82,11 @@
         android:id="@+id/wheel_spinner"
         android:layout_width="165dp"
         android:layout_height="120dp"
-        android:layout_marginStart="30dp"
         android:layout_marginBottom="30dp"
         app:cardBackgroundColor="#2A2630"
         app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_ring_dashboard"
+        app:layout_constraintEnd_toStartOf="@+id/college_manage"
         app:layout_constraintStart_toStartOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -134,12 +135,12 @@
         android:id="@+id/college_manage"
         android:layout_width="165dp"
         android:layout_height="120dp"
-        android:layout_marginEnd="30dp"
         android:layout_marginBottom="30dp"
         app:cardBackgroundColor="#2A2630"
         app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_ring_dashboard"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/wheel_spinner">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -173,8 +174,8 @@
                 android:id="@+id/imagecollege"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
                 android:scaleType="fitXY"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -185,20 +186,20 @@
 
     <ImageButton
         android:id="@+id/btn_home"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_marginStart="90dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="26dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/btnhome_on" />
 
     <ImageButton
         android:id="@+id/btn_prof"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_marginEnd="90dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="26dp"
         android:background="@null"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -210,13 +211,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="18dp"
         android:text="Dashboard"
         android:textColor="@color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/wheel_spinner"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="To do list progreess"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -35,9 +35,11 @@
         android:hint="Judul"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:paddingStart="20dp"
         android:paddingLeft="10dp"
         android:textColor="#9388A2"
         android:textColorHint="#9388A2"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_x_note" />
@@ -56,20 +58,23 @@
         android:hint="Note"
         android:inputType="textMultiLine"
         android:padding="10dp"
+        android:paddingStart="20dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_simpan_note"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_judul_note" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_judul_note"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button_x_note"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
         android:background="@drawable/btn_x"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
