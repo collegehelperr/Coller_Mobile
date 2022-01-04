@@ -15,9 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Coller">
         <activity
-            android:name=".college.AddTodolistActivity"
-            android:exported="true" />
-        <activity
             android:name=".college.AddTaskActivity"
             android:exported="true" />
         <activity

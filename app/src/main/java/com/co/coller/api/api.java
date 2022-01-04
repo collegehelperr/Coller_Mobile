@@ -1,10 +1,8 @@
 package com.co.coller.api;
 
-import com.co.coller.model.circlegraph;
 import com.co.coller.model.note;
 import com.co.coller.model.schedule;
 import com.co.coller.model.task;
-import com.co.coller.model.todolist;
 import com.google.gson.JsonObject;
 
 import java.util.List;
@@ -121,30 +119,4 @@ public interface api {
     @FormUrlEncoded
     @POST("task.php")
     Call<JsonObject> deleteTask(@Field("id_task_delete") String id_task);
-
-    @GET("todolist.php")
-    Call<List<todolist>> getTodolist(@Query("uid") String uid);
-
-    @FormUrlEncoded
-    @POST("todolist.php")
-    Call<JsonObject> updateStatusTodolist(@Field("id_todolist") String id_todolist,
-                                      @Field("status") String status);
-
-    @FormUrlEncoded
-    @POST("todolist.php")
-    Call<JsonObject> addTodolist(@Field("uid") String uid,
-                             @Field("detail_todolist") String detail_todolist);
-
-    @FormUrlEncoded
-    @POST("todolist.php")
-    Call<JsonObject> updateTodolist(@Field("id_todolist") String id_todolist,
-                                 @Field("detail_todolist") String detail_todolist);
-
-    @FormUrlEncoded
-    @POST("todolist.php")
-    Call<JsonObject> deleteTodolist(@Field("id_todolist_delete") String id_todolist);
-
-    @FormUrlEncoded
-    @POST("todolist2.php")
-    Call<JsonObject> getPersentase(@Field("uid") String uid);
 }
